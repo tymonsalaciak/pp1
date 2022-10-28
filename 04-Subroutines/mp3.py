@@ -1,3 +1,17 @@
+def amount_to_pay(amount):
+    x = amount // 5 # tu jest 4
+    s1 = amount - x * 5
+    y = s1 // 2 # ma być 1
+    z = y //1 
+    whole = x+y+z
+    print(whole)
+
+amount_to_pay(2)
+
+
+
+
+
 '''def amount_to_pay(amount):
     #coins = [1 , 2 , 5]
     x = amount // 2
@@ -21,7 +35,7 @@ def amount_to_pay(amount):
 amount_to_pay(23)
 '''
 
-
+"""
 def amount_to_pay(amount):
     x = amount // 5 # tu jest 4
     s1 = amount - x * 5
@@ -31,3 +45,4 @@ def amount_to_pay(amount):
     print(whole)
 
 amount_to_pay(2)
+"""
