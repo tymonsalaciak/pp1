@@ -17,4 +17,4 @@ try:
             break
 except:
     print("podaj tylko liczby nie słowa ")
-    continue
+ 

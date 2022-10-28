@@ -27,3 +27,4 @@ print(dir(computepay))
 import fibo 
 
 fibo.fib(10000)
+#modname.itemname 
