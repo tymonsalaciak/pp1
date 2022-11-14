@@ -11,5 +11,5 @@ def f(amount):
         whole = x+y+z
         return whole
 
-f(2)
+f(8)
 
