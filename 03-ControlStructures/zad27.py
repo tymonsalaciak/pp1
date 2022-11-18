@@ -6,7 +6,7 @@ for i in range(1,10):
     elif i <= 9:
         print(f"{i}" , end='\n')
 
-
+print("---------")
 
 for i in range(1,10):
     if i <= 3:
