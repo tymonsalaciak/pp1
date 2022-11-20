@@ -12,9 +12,10 @@ for i in arr:
     
     m = max(arr)
     mi = min(arr)
-    if mi < i < m:
+    if mi < i < m: #ten warunek sprawia że zostaje odrzucona największa wartość
         find = []
         find.append(i)
 for j in find:
     end = max(find)
-    print("Result: ",end)
+    print("Result:",end)
+    # unikać używqania zmiennej end można pomylić z end=""
