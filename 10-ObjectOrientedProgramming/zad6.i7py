@@ -1,0 +1,32 @@
+class University():
+
+    # object constructor (__init__ method)
+    def __init__(self):
+        # object attributes (object features)
+        self.name = 'CUE'    
+
+    # object methods (object behaviors)
+    def print_name(self):  
+        print(self.name)
+
+
+    def set_name(self, name):
+        self.name = name 
+        print(name) 
+
+#class : 
+#atrybuty i zachowania 
+
+
+p1 = University()
+
+p1.print_name()
+
+p1.set_name("John")
+
+
+#The self parameter is a reference to the current instance of the class, 
+#and is used to access variables that belong to the class.
+
+#class - wzorzec
+
